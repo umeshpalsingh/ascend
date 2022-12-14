@@ -1,0 +1,466 @@
+/* CUSTOM CSS Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-bg {
+    background: #000000;
+}
+
+.header {
+    background: #000;
+    padding: 16px 0;
+}
+
+.main-section {
+    margin: 66px 0;
+    background: url('/assets/img/background.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main-section .content {
+    color: #FFFFFF;
+    padding: 155px 0 185px;
+}
+
+.main-section .content .main-heading .welcome {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    display: block;
+    margin: 0 0 11px;
+}
+
+.main-section .content .main-heading .ascend {
+    display: block;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.main-section .content p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+}
+
+.main-section .content p img {
+    position: absolute;
+    top: -26px;
+    right: 0;
+}
+
+.main-section .boxx {
+    width: 100%;
+    height: 594px;
+    /* position: relative;
+    bottom: 100px; */
+}
+/* 
+.main-section .boxx img {
+    border: 10px solid #fff;
+} */
+
+.footer .footer_links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_links ul {
+    margin: 0;
+}
+
+.footer .footer_links li {
+    margin-right: 24px;
+}
+
+/*------------------------ Policy CSS START -----------------------*/
+
+.policy-section {
+    padding: 100px 0 0;
+}
+
+.policy-section h5 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+}
+
+.policy-section h2 {
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 70px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.policy-section .policy-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 134px;
+    height: 7px;
+    background: #0D9A93;
+}   
+
+.policy-section h6 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 16px;
+    color: #000000;
+}
+
+.policy-section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.policy-box {
+    margin: 65px 0;
+}
+
+
+
+/*------------------------ Policy CSS ENDs -----------------------*/
+
+
+.banner-section {
+    background: rgba(0, 0, 0, 1);
+    background-repeat: no-repeat;
+    height: 430px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section .banner-heading {
+    color: #FFFFFF;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+/*------------- PROGRAMS PAGE CSS STARTs -------------------*/
+
+.session-section {
+    padding: 85px 0;
+}
+
+.calender-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 16px;
+}
+
+.session-pagination {
+    margin-top: 55px;
+}
+
+.session-pagination h6 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.session-pagination ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.session-pagination ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 82px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.session-pagination ul li a.orange-1  {
+    background-color: #FFA0A0;
+}
+.session-pagination ul li a.blue-1 {
+    background-color: #AEC8F8;
+}
+.session-pagination ul li a.green-1 {
+    background-color: #ADF8DC;
+}
+.session-pagination ul li a.pink-1 {
+    background-color: #F6B0DA;
+}
+.session-pagination ul li a.yellow-1 {
+    background-color: #F7E697;
+}
+.session-pagination ul li a.green-2 {
+    background-color: #7CFF86;
+}
+.session-pagination ul li a.orange-2 {
+    background-color: #FFB47B;
+}
+.session-pagination ul li a.pink-2 {
+    background-color: #E69BFF;
+}
+.session-pagination ul li a.blue-2 {
+    background-color: #75CCFF;
+}
+.session-pagination ul li a.green-3 {
+    background-color: #8BCB83;
+}
+.session-pagination ul li a.purple {
+    background-color: #CCB1F7;
+}
+.session-pagination ul li a.yellow-2 {
+    background-color: #FDCB76;
+}
+.session-pagination ul li a.yellow-3 {
+    background-color: #FCFF70;
+}
+
+
+.session-information {
+    background: linear-gradient(89.97deg, #375D6E 11.99%, #0D9A93 92.13%);
+    padding: 85px 0;
+}
+
+.session-information .info-box {
+    padding: 60px 0;
+}
+
+
+.session-information h5 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.session-information h2 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 70px;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.session-information h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 134px;
+    height: 7px;
+    background: #0D9A93;
+}
+
+.session-information p {
+    max-width: 562px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 35px;
+}
+
+.session-information .info-list {
+    list-style: disc;
+    max-width: 677px;
+
+}
+
+.session-information .info-list li {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/*------------- PROGRAMS PAGE CSS ENDs -------------------*/
+
+
+/*------------- CONTACT US CSS STARTs --------------------*/
+
+.contact-section {}
+
+.contact-box {
+    display: flex;
+}
+
+.item-1 {
+    width: 50%;
+}
+
+.item-1 img {
+    width: 100%;
+}
+
+.item-2 {
+    padding: 74px 112px;
+}
+
+.item-2 img {
+    margin-bottom: 14px;
+}
+
+.item-content h5 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #000000;
+}
+
+.item-content h2 {
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 70px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.item-content h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 134px;
+    height: 7px;
+    background: #0D9A93;
+}
+
+.item-content .address {
+    color: #111111;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 453px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+
+.item-content a {
+    color: #129994;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.ph-number {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.item-content .appointment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+
+
+.send-btn a {
+    max-width: 234px;
+    display: block;
+    padding: 14px 40px;
+    background: #375D6E;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: all .3s ease-in;
+}
+
+.send-btn a:hover {
+    background: #0D9A93;
+}
+
+.contact-box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.contact-box:nth-child(even) .item-content {
+    text-align: right;
+}
+
+.contact-box:nth-child(even) .item-content h2::after {
+    left: auto;
+    right: 0;
+}
+
+.contact-box:nth-child(even) .item-2 .info-logo {
+    text-align: right;
+}
+
+.contact-box:nth-child(even) .send-btn a {
+    margin-left: auto;
+}
+
+
+/*--------------------- CONTACT US CSS ENDs -----------------------*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
